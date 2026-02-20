@@ -1,7 +1,7 @@
 import clsx from "clsx";
 
 const Button = ({ id, title, rightIcon, leftIcon, containerClass }) => {
-  return (
+  return ( 
     <button
       id={id}
       className={clsx(
